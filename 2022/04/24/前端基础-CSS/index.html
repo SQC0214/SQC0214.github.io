@@ -20,21 +20,23 @@
   <meta content="SUN&#39;BLOG" name="apple-mobile-web-app-title">
   <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style">
   <meta content="telephone=no" name="format-detection">
-  <link rel="preload" href="/css/style.css?time=1653384677938" as="style">
+  <link rel="preload" href="/css/style.css?time=1653528021936" as="style">
   <link rel="preload" href="/media/fonts/VarelaRound/VarelaRound-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 <link rel="preload" href="/media/fonts/UbuntuMono/UbuntuMono-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
   <!-- 页面元数据 -->
   <title>前端基础-CSS - SUN'BLOG</title>
   <meta name="keywords" content="CSS,null">
-  <meta property="og:type" content="article">
+  <meta name="description" content="Css 标准 选择器 加各种样式的声明26、 选择器 有 基础选择器 和 复合选择器27、 标签选择器 标签名 作为选择器 p div h328、 id选择器 #类名定义 id&#x3D;“类名定义”。29、 类选择器 class&#x3D;“nev”30、 Css字体 font normal 字体粗细400 字体大小12px&#x2F;- line-height字体行高 字体类型 微软雅黑； 3">
+<meta property="og:type" content="article">
 <meta property="og:title" content="前端基础-CSS">
 <meta property="og:url" content="http://example.com/2022/04/24/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80-CSS/index.html">
 <meta property="og:site_name" content="SUN&#39;BLOG">
+<meta property="og:description" content="Css 标准 选择器 加各种样式的声明26、 选择器 有 基础选择器 和 复合选择器27、 标签选择器 标签名 作为选择器 p div h328、 id选择器 #类名定义 id&#x3D;“类名定义”。29、 类选择器 class&#x3D;“nev”30、 Css字体 font normal 字体粗细400 字体大小12px&#x2F;- line-height字体行高 字体类型 微软雅黑； 3">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://example.com/media/org.volantis/blog/favicon/android-chrome-192x192.png">
 <meta property="article:published_time" content="2022-04-24T02:29:32.000Z">
-<meta property="article:modified_time" content="2022-04-24T02:33:52.773Z">
+<meta property="article:modified_time" content="2022-05-26T00:46:23.239Z">
 <meta property="article:author" content="SUN">
 <meta property="article:tag" content="CSS">
 <meta name="twitter:card" content="summary">
@@ -1626,8 +1628,8 @@ ul.list-v >li>a:hover {
 }
 
   </style>
-  <link rel="stylesheet" href="/css/style.css?time=1653384677938" media="print" onload="this.media='all';this.onload=null">
-  <noscript><link rel="stylesheet" href="/css/style.css?time=1653384677938"></noscript>
+  <link rel="stylesheet" href="/css/style.css?time=1653528021936" media="print" onload="this.media='all';this.onload=null">
+  <noscript><link rel="stylesheet" href="/css/style.css?time=1653528021936"></noscript>
   
 <script>
 if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode))
@@ -1698,9 +1700,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   volantis.dom = {}; // 页面Dom see: /source/js/app.js etc.
 
   volantis.GLOBAL_CONFIG ={
-    cdn: {"js":{"app":"/js/app.js?time=1653384677938","sites":"/js/plugins/sites.js?time=1653384677938","friends":"/js/plugins/friends.js?time=1653384677938","parallax":"/js/plugins/parallax.js?time=1653384677938","rightMenu":"/js/plugins/rightMenu.js?time=1653384677938","contributors":"/js/plugins/contributors.js?time=1653384677938","message":"/js/thirdparty/message.js?time=1653384677938","valine":"https://npm.elemecdn.com/valine@1.4/dist/Valine.min.js?time=1653384677938","search":"/js/search/hexo.js?time=1653384677938"},"css":{"style":"/css/style.css?time=1653384677938","message":"/css/message.css?time=1653384677938"}},
+    cdn: {"js":{"app":"/js/app.js?time=1653528021936","sites":"/js/plugins/sites.js?time=1653528021936","friends":"/js/plugins/friends.js?time=1653528021936","parallax":"/js/plugins/parallax.js?time=1653528021936","rightMenu":"/js/plugins/rightMenu.js?time=1653528021936","contributors":"/js/plugins/contributors.js?time=1653528021936","message":"/js/thirdparty/message.js?time=1653528021936","valine":"https://npm.elemecdn.com/valine@1.4/dist/Valine.min.js?time=1653528021936","search":"/js/search/hexo.js?time=1653528021936"},"css":{"style":"/css/style.css?time=1653528021936","message":"/css/message.css?time=1653528021936"}},
     default: {"avatar":"/media/placeholder/avatar/round/3442075.svg","link":"/media/placeholder/link/8f277b4ee0ecd.svg","cover":"/media/placeholder/cover/76b86c0226ffd.svg","image":"/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date('Tue May 24 2022 17:31:17 GMT+0800 (中国标准时间)'),
+    lastupdate: new Date('Thu May 26 2022 09:20:21 GMT+0800 (中国标准时间)'),
     sidebar: {
       for_page: ["blogger","category","tagcloud","donate"],
       for_post: ["toc"],
@@ -2498,7 +2500,16 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   <div id="layoutHelper-page-plugins"></div>
   <div id="post-body" itemprop="articleBody">
-    
+    <h3 id=""><a href="#" class="headerlink" title=""></a></h3><p>Css 标准 选择器 加各种样式的声明<br>26、 选择器 有 基础选择器 和 复合选择器<br>27、 标签选择器 标签名 作为选择器 p div h3<br>28、 id选择器 #类名定义 id&#x3D;“类名定义”。<br>29、 类选择器 class&#x3D;“nev”<br>30、 Css字体 font normal 字体粗细400 字体大小12px&#x2F;- line-height字体行高 字体类型 微软雅黑；</p>
+<p>31、 字体装饰 颜色color 文本对齐 text-align left&#x2F;- center&#x2F;right 文字装饰text-decoration ：none； - text-indent文本缩进2em 相对于 font-size 的单位<br>32、 内部样式表 在 style 内部 编写css内容<br>33、 行内样式表 行内 style 修饰文本style&#x3D;“color：- pink”<br>34、 外部样式表link 某一个css文件<br>35、 后代选择器 ul li a span<br>36、 子元素选择器 ul&gt; li 只选择亲儿子<br>37、 并集选择器 逗号相分割<br>38、 伪类选择器：hover 书写属性要注意顺序，但一般只用hover - lvha</p>
+<p>39、 块元素 单独占一行<br>40、 行内元素 内部只能放文字或者行内元素 a 可以放块级元- 素，记得转换块级元素<br>41、 行内块元素 一行放几个 还可以设高和宽<br>42、 背景 颜色color 透明色 transparent 图片 image - url 平铺 no-repeat 位置 position x 坐标 y 坐标 方- 位名词 left right center top bottom<br>43、 如果写一个方位名词，第二个默认居中对齐<br>44、 精确坐标 ：第一个x坐标 第二个y 坐标。<br>45、 Background-position 20px 50px 。<br>46、 单写一个同理<br>47、 背景固定 background-attachment 制作视差滚动效果scroll- 滚动 fixed 固定<br>48、 背景符合写法 background：没有要求顺序 color url - no-repeat fixed center top<br>49、 背景颜色半透明 background：rgba（0，0，0，.3）<br>50、 盒子模型<br>51、 Margin 外边距 padding 内边距 border 边框 center 中- 心<br>52、 Border-radios 10px 10px 10px 10px 圆角边框<br>53、 Box-shaldow 10px 10px 10px 10px 盒子阴影<br>54、 浮动元素和标准流父盒子一起使用<br>55、 添加一个边框transparent 透明色 解决外边距合并问题，浮- 动，固定、绝对定位不会有外边距合并问题<br>56、 行内或者行内块 水平居中，给父元素加text-align：center - 就可以。<br>57、 块级元素 margin 0px auto<br>padding 不会撑开盒子的情况<br>当盒子没有指定高或者宽的时候<br>margin<br>外边距 0px auto 上下为0 左右居中<br>嵌套元素塌陷<br>可以给父盒子指定一个边框<br>css 属性书写顺序<br>布局定位属性 ： display&#x2F; position &#x2F; float &#x2F;visibility &#x2F; overflow (建议display第一个写)<br>自身属性 ： width &#x2F; height &#x2F; margin &#x2F; padding &#x2F; border &#x2F; background<br>文本属性 ： color &#x2F; font &#x2F; text-decoration &#x2F; text-align &#x2F; vertical-align &#x2F; white-spacebreak-word<br>其他属性 box-shadow<br>定位<br>绝对定位 position：absulate<br>脱离标准流 不占有位置<br>相对定位 relative<br>占有原来的位置 不脱标<br>一般情况 都是 子绝父相<br>固定定位 fixed<br>固定在屏幕上，做一些视觉反差的效果 QQ首页<br>定位叠放次序 z-index： 1；<br>只有定位的盒子才会有 这个属性<br>默认为auto ，值越大 越靠上显示 ，值可正可负<br>绝对定位水平垂直居中<br>left：50% ；<br>margin-left：-一半的盒子宽度;<br>top：50%<br>margin-top：-一半的盒子高度;<br>定位的特殊属性 和浮动类似<br>可以给行内块，行内元素 设置高度和宽度<br>块级元素添加绝对定位或者固定定位，不给高度和宽度，默认大小为内容的大小<br>脱标的盒子不会触发外边距塌陷 ： 浮动元素，绝对。固定定位的元素<br>元素的显示和隐藏<br>display :none 隐藏对象 隐藏后不占有原来的位置<br>display: block 显示对象，转换块级元素<br>visibility<br>visible 元素可视<br>hidden 元素隐藏 隐藏后继续占有原来的位置<br>overflow :hidden ;<br>超出部分隐藏<br>auto 超出显示滚动条 ，不超出不显示滚动条<br>精灵图<br>有效的减少了服务器发送请求的次数，提高了页面的加载速度<br>background: url(‘精灵图路径’) no-repeat x坐标 y坐标。<br>通常利用js for循环将精灵图放入 ，用Macromedia Fireworks 8 打开精灵图<br>调为原来的一半大小，放大 ，量取对应精灵图的位置 ，最后用background-size 调整大小</p>
+<p>var index &#x3D; i*64;</p>
+<p>sps[i].style.backgroundPosition&#x3D; ‘0 -‘+index+’px’;<br>1<br>icomoon 图标的使用<br><a target="_blank" rel="noopener" href="https://icomoon.io/app/">https://icomoon.io/app/</a><br>将icomoon压缩包解压到和 html文件的同一级路径下<br>直接调用即可<br>在文章或者块级盒子加 字体图标 ：<br>在css文件中 加 content: “\e98d”; font-family: ‘icomoon’;<br>在搜索框内加字体图标，直接写入placeholder内部<br>字体图标的追加和加载原理<br>点开icomoon 网站 ，点击左上角图标，弹出对话框，选择xxxx.json 上传 。<br>减少服务器压力 。响应一次<br>css三角做法<br>width: 0; height: 0;</p>
+<ul>
+<li>border: 10px solid transparent;<br>border-top-color: pink;<br>做好以后由定位固定到应有的位置<br>高级技巧<br>下边框和左边框 变为 0 ，上边框边长并透明，通过定位放到应有的位置<br>鼠标样式 cursor<br>默认 cursor: default<br>小手 pointer<br>移动 move<br>文本样式 text<br>鼠标禁止样式 not-allowed<br>表单轮廓消除和文本域防拖拽<br>outline-none;<br>resize-none;<br>vertical-align<br>用于设置图片或者表单（只对行内块元素有效）和文字垂直对齐<br>baseline 默认 基线上<br>top 元素顶端与最高元素的顶端对齐<br>middle 把此元素放在父元素的中部<br>bottom 把元素的顶端 与最低的元素的顶端对齐<br>图片底部空白缝隙解决<br>原因是行内块元素是和基线对齐<br>vertical-align middle top bottom(提倡使用的)<br>display:block;<br>单行文本溢出省略号显示<br>强制一行显示 write-space:nowrap;<br>超出部分隐藏 overflow:hidden;<br>用省略号代替超出的部分 text-overflow :ellipsis;<br>css初始化<br>复制粘贴代码即可<br>语义化标签<br>header 头部标签<br>nev 导航标签<br>article 内容标签<br>section 定义文档某个区域<br>aside 侧边标签<br>footer 尾部标签<br>多媒体标签<br>audio 音频标签<br>谷歌禁用 自动播放 音频 autoplay<br>loop &#x3D; “loop” 循环播放<br>controls 属性 控制播放和其他按钮<br>autoplay&#x3D;“autoplay” 视频就绪自动播放 （重点）<br>视频标签<br>autoplay&#x3D;“autoplay” 视频就绪自动播放 （重点）<br>muted&#x3D; “muted” 静音播放<br>loop &#x3D; “loop” 循环播放<br>controls 属性 控制播放和其他按钮<br>poster&#x3D; “图片路径” ，未加载好视频时显示改图片<br>必须在form表单域内<br>新增表单控件<br>重点记住 number 必须数字类型 tel 手机号码 search 搜索框 三个<br>其他需要自查<br>表单属性<br>placeholder 提示文本<br>submit 提交控件<br>多文件提交控件 multiple<br>css新选择器<br>nth-child 所有元素都会排列序号<br>odd 奇数 even 偶数<br>nth-child(n) n从0开始 遍历，直到最后一个，开始改变属性，只可以写n，不可以写其他字母<br>2n 等价于 even<br>2n+1 等价于 奇数 odd<br>n+5 从第五个开始（包括第五个）</li>
+</ul>
+<p>-n+5 前五个<br>nth-of-type()<br>先看孩子是否对应，然后再选择，与nth-child 最大的不同<br>1<br>伪类选择器 新(文档中找不到)<br>::before 元素内部前面插入内容<br>::after 元素内部后面插入内容<br>必须都有 content属性 权重为 1;<br>css3 盒子模型<br>box-sizing 默认值为content-box 改变值 border-box<br>可以忽略padding ，border 样式扩大盒子的大小，只以width为准。<br>css 过渡 ，经常和hover搭配使用<br>属性： transition ： 要过渡的元素 花费时间 运动曲线 何时开始<br>时间单位为秒<br>曲线可以省略<br>transition : width 0.5s ease(默认) 0s<br>在div内添加 该样式 即可。<br>div：hover {<br>width：500px；<br>}<br>谁做过渡给谁加<br>多个样式写法<br> transition : width 0.5s  ease(默认) 0s, height 0.5s 0s;<br> 也可以写 all 0.5s 。。。。 </p>
+
 
   </div>
   
@@ -2534,10 +2545,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2022-04-24T10:33:52+08:00">
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2022-05-26T08:46:23+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
-    <p>更新于：Apr 24, 2022</p>
+    <p>更新于：May 26, 2022</p>
   </a>
 </div>
 
@@ -2617,6 +2628,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     <div class="prev-next">
       
+        <a class='prev' href='/2022/04/25/SEO%E7%9B%B8%E5%85%B3%E5%AD%A6%E4%B9%A0/'>
+          <p class='title'><i class="fa-solid fa-chevron-left" aria-hidden="true"></i>SEO相关学习</p>
+          <p class='content'>本文主要叙述，SEO学习中的相关概念，以及主要业务工具使用啊🎈🎐
+
+主要概念SEOseo是搜索引擎优化。1、搜索引擎优化是一种透过了解搜索引擎的运作规则来调整网站。2、SEO搜索引擎最佳化跟...</p>
+        </a>
+      
       
         <a class='next' href='/2022/04/12/CSS-HTML-JS-%E4%B8%89%E9%A9%BE%E9%A9%AC%E8%BD%A6/'>
           <p class='title'>前端基础-HTML<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
@@ -2661,9 +2679,19 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
 
-  <div class="pjax">
-    <!-- pjax占位 -->
-  </div>
+  <section class="widget toc-wrapper shadow desktop mobile pjax" id="toc-div" >
+    
+  <header>
+    
+      <i class="fa-solid fa-list fa-fw" aria-hidden="true"></i><span class='name'>本文目录</span>
+    
+  </header>
+
+
+    <div class='content'>
+        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-text"></span></a></li></ol>
+    </div>
+  </section>
 
   
 
@@ -2823,7 +2851,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 <!-- internal -->
 
-<script src="/js/app.js?time=1653384677938.js"></script>
+<script src="/js/app.js?time=1653528021936.js"></script>
 
 
 
@@ -3015,7 +3043,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
     </ul>
   </div>
-  <script>volantis.js('/js/plugins/rightMenu.js?time=1653384677938')</script>
+  <script>volantis.js('/js/plugins/rightMenu.js?time=1653528021936')</script>
 
 
 
@@ -3028,19 +3056,19 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
       const sites_api = document.getElementById('sites-api');
       if (sites_api != undefined && typeof SitesJS === 'undefined') {
-        volantis.js("/js/plugins/sites.js?time=1653384677938")
+        volantis.js("/js/plugins/sites.js?time=1653528021936")
       }
     
     
       const friends_api = document.getElementById('friends-api');
       if (friends_api != undefined && typeof FriendsJS === 'undefined') {
-        volantis.js("/js/plugins/friends.js?time=1653384677938")
+        volantis.js("/js/plugins/friends.js?time=1653528021936")
       }
     
     
       const contributors_api = document.getElementById('contributors-api');
       if (contributors_api != undefined && typeof ContributorsJS === 'undefined') {
-        volantis.js("/js/plugins/contributors.js?time=1653384677938")
+        volantis.js("/js/plugins/contributors.js?time=1653528021936")
       }
     
   };
@@ -3165,7 +3193,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   function loadSearchScript() {
     // see: layout/_partial/scripts/_ctrl/cdnCtrl.ejs
-    return volantis.js("/js/search/hexo.js?time=1653384677938");
+    return volantis.js("/js/search/hexo.js?time=1653528021936");
   }
 
   function loadSearchService() {
@@ -3484,7 +3512,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   var runningOnBrowser = typeof window !== "undefined";
   var isBot = runningOnBrowser && !("onscroll" in window) || typeof navigator !== "undefined" && /(gle|ing|ro|msn)bot|crawl|spider|yand|duckgo/i.test(navigator.userAgent);
   if (!isBot) {
-    volantis.js('/js/plugins/parallax.js?time=1653384677938').then(()=>{
+    volantis.js('/js/plugins/parallax.js?time=1653528021936').then(()=>{
       parallax()
     })
     volantis.pjax.send(()=>{
@@ -3718,7 +3746,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"SUN'BLOG","url":"http://example.com/","logo":{"@type":"ImageObject","url":"/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"SUN","image":{"@type":"ImageObject","url":"/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":""},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"SUN'BLOG"}},{"@type":"ListItem","position":2,"item":{"@id":"http://example.com/categories/前端基础/","name":"前端基础"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/2022/04/24/前端基础-CSS/","name":"前端基础-CSS"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"前端基础-CSS","description":"","datePublished":"2022-04-24T02:29:32.000Z","dateModified":"2022-04-24T02:33:52.773Z","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2022/04/24/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80-CSS/"},"author":{"@type":"Person","name":"SUN","image":{"@type":"ImageObject","url":"/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"SUN'BLOG","logo":{"@type":"ImageObject","url":"/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://example.com/2022/04/24/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80-CSS/","wordCount":0,"articleSection":"前端基础","keywords":"CSS","image":{"@type":"ImageObject","url":"/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"SUN'BLOG","url":"http://example.com/","logo":{"@type":"ImageObject","url":"/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"SUN","image":{"@type":"ImageObject","url":"/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":""},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"SUN'BLOG"}},{"@type":"ListItem","position":2,"item":{"@id":"http://example.com/categories/前端基础/","name":"前端基础"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/2022/04/24/前端基础-CSS/","name":"前端基础-CSS"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"前端基础-CSS","description":"","datePublished":"2022-04-24T02:29:32.000Z","dateModified":"2022-05-26T00:46:23.239Z","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2022/04/24/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80-CSS/"},"author":{"@type":"Person","name":"SUN","image":{"@type":"ImageObject","url":"/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"SUN'BLOG","logo":{"@type":"ImageObject","url":"/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://example.com/2022/04/24/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80-CSS/","wordCount":0,"articleSection":"前端基础","keywords":"CSS","image":{"@type":"ImageObject","url":"/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 <!-- more -->
